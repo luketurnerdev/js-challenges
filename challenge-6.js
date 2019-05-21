@@ -6,8 +6,9 @@ where possible.
 
 "use strict";
 
-function mult(a, b) {
-    return a * b;
+
+const mult = (a,b) => {
+    return a*b;
 }
 
 setTimeout(function() {
